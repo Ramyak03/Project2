@@ -17,6 +17,8 @@ echo -e "Hello\nWorld"
 
 echo -e "\e[31mHello in Red"
 echo -e "\e[1;31mHello in BoldRed"
+echo "+++++++++++ we are done with printing options+++++++++"
+
 
 
 
