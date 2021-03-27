@@ -17,3 +17,5 @@ echo " $COURSE training covers shell scripting & Ansible"
 
 
 
+
+
