@@ -15,8 +15,8 @@ echo -e "Hello\nWorld"
 # bold 1
 # syntax: echo -e "\e[COLORCODEmMESSAGE"
 
-echo -e "\e[31mHello in Red"
-echo -e "\e[1;31mHello in BoldRed"
+echo -e "\e[31mHello in Red\e[0m"
+echo -e "\e[1;31mHello in BoldRed\e[0m"
 echo "+++++++++++ we are done with printing options+++++++++"
 
 
