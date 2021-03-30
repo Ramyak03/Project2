@@ -19,6 +19,23 @@ a=100
 fruit=apple
 echo $fruit is ${a}no
 
+## Variable names
+# Dynamic Variables
+
+
+echo Good Morning, Today Date is 2021-03-24
+
+# Dynamic Variables can be created in two ways
+
+#1.Command Substitution, syntax var=$(commands),Declaring a variable from command putput
+DATE=$(date +%F)
+echo Good Morning, Today Date is ${DATE}
+
+# 2.Arithmetic Substitution ,syntax:var=$((expression))
+ADD=$((2+3))
+echo Addition of 2 +3  is $ADD
+
+
 
 
 
