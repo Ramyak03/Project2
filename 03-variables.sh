@@ -27,13 +27,26 @@ echo Good Morning, Today Date is 2021-03-24
 
 # Dynamic Variables can be created in two ways
 
-#1.Command Substitution, syntax var=$(commands),Declaring a variable from command putput
+#1.Command Substitution, syntax var=$(commands),Declaring a variable from command output
 DATE=$(date +%F)
 echo Good Morning, Today Date is ${DATE}
 
 # 2.Arithmetic Substitution ,syntax:var=$((expression))
 ADD=$((2+3))
 echo Addition of 2 +3  is $ADD
+
+#Read Write(default property of any variable)
+a=10
+echo $a
+a=20
+echo $a
+
+# if we want to change the property of variables we use readonly
+readonly a
+
+
+# scalar
+
 
 
 
