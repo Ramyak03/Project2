@@ -56,6 +56,11 @@ echo ${s[1]}
 echo ${s[2]}
 echo ${s[3]}
 
+#local -Property
+echo "Env variable UID=${UID}"
+echo "Env variable COURSE=${COURSE}"
+
+
 
 
 
