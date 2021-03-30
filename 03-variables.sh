@@ -43,6 +43,8 @@ echo $a
 
 # if we want to change the property of variables we use readonly
 readonly a
+a=30
+echo $a
 
 
 # scalar
