@@ -47,14 +47,14 @@ a=30
 echo $a
 
 # scalar (It can hold only one value)
-a=10
-b=20
-echo $b
+c=10
+c=20
+echo $c
 # gives only one value at a time , output is 20.. we can achieve that using myArray[index]=value
 s=( 10 20 30)
-echo "${s[1]}"
-echo "${s[2]}"
-echo "${s[3]}"
+echo ${s[1]}
+echo ${s[2]}
+echo ${s[3]}
 
 
 
