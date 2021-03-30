@@ -42,9 +42,9 @@ a=20
 echo $a
 
 # 1.if we want to change the property of variables we use readonly
-readonly a
-a=30
-echo $a
+#readonly a
+#a=30
+#echo $a
 
 # scalar (It can hold only one value)
 c=10
