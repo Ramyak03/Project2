@@ -52,13 +52,13 @@ c=20
 echo $c
 # gives only one value at a time , output is 20.. we can achieve that using myArray[index]=value
 s=( 10 20 30)
-echo ${s[1]}
+echo "${s[1]}"
 echo ${s[2]}
 echo ${s[3]}
 
-#local -Property
+#local -Property(scope of the variable is only with in the shell..It is not accessible in the script)
 echo "Env variable UID=${UID}"
-echo "Env variable COURSE=${COURSE}"
+echo "Env variable COURSENAME=${COURSENAME}"
 
 
 
@@ -66,7 +66,7 @@ echo "Env variable COURSE=${COURSE}"
 
 
 
-# scalar
+
 
 
 
